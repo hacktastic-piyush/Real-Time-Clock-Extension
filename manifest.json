@@ -1,0 +1,24 @@
+{
+    "name": "Real-Time Clock Extension",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "An extension that displays a real-time clock in a popup.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["style.css"]     
+        }
+    ],
+    "action": {
+        "default_popup": "Time.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    }
+}
