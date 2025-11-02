@@ -9,3 +9,4 @@ An extension that displays a real-time clock in a pop-up.
   <li>Now a Load Unpacked Button will appear on top, click and browse to your folder and load the extension</li>
   <li> Your Extension is ready to be used.</li>
 </ol>
+<h3>Note: It will work on the latest Chrome Version V3</h3>
